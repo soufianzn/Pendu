@@ -1,0 +1,47 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pendu"
+        mc:Ignorable="d"
+        Title="THE HANGMAN" Height="537.044" Width="1022.368">
+    <Grid x:Name="Window">
+
+        <Button x:Name="btStartgame" Content="Start the game" HorizontalAlignment="Left" Margin="453,320,0,0" VerticalAlignment="Top" Width="119"/>
+        <Button x:Name="bta" Content="a" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="904,53,0,0"/>
+        <Button x:Name="btb" Content="b" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="558,9,0,0"/>
+        <Button x:Name="btc" Content="c" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="674,9,0,0"/>
+        <Button x:Name="btd" Content="d" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="789,9,0,0"/>
+        <Button x:Name="bte" Content="e" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="904,9,0,0"/>
+        <Button x:Name="btf" Content="f" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="674,172,0,0"/>
+        <Button x:Name="btg" Content="g" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="789,167,0,0"/>
+        <Button x:Name="bth" Content="h" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="904,162,0,0"/>
+        <Button x:Name="bti" Content="i" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="558,130,0,0"/>
+        <Button x:Name="btj" Content="j" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="674,125,0,0"/>
+        <Button x:Name="btk" Content="k" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="789,107,0,0"/>
+        <Button x:Name="btl" Content="l" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="904,107,0,0"/>
+        <Button x:Name="btm" Content="m" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="558,68,0,0"/>
+        <Button x:Name="btn" Content="n" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="674,63,0,0"/>
+        <Button x:Name="bto" Content="o" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="544,177,0,0"/>
+        <Button x:Name="btp" Content="p" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="859,269,0,0"/>
+        <Button x:Name="btq" Content="q" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="453,219,0,0"/>
+        <Button x:Name="btr" Content="r" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="453,167,0,0"/>
+        <Button x:Name="bts" Content="s" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="453,9,0,0"/>
+        <Button x:Name="btt" Content="t" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="453,107,0,0"/>
+        <Button x:Name="btu" Content="u" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="453,68,0,0"/>
+        <Button x:Name="btv" Content="v" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="570,229,0,0"/>
+        <Button x:Name="btw" Content="w" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="682,224,0,0"/>
+        <Button x:Name="btx" Content="x" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="786,219,0,0"/>
+        <Button x:Name="bty" Content="y" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="898,214,0,0"/>
+        <Button x:Name="btz" Content="z" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="789,58,0,0"/>
+        <GroupBox x:Name="representation" Header="GroupBox" HorizontalAlignment="Left" Margin="48,15,0,0" VerticalAlignment="Top" Height="325" Width="260">
+            <Image x:Name="pbImages" HorizontalAlignment="Left" Height="283" Margin="10,10,0,0" VerticalAlignment="Top" Width="225"/>
+        </GroupBox>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="68" Margin="179,353,0,0" VerticalAlignment="Top" Width="685"/>
+        <Label x:Name="lCacher" Content="" HorizontalAlignment="Left" Margin="204,367,0,0" VerticalAlignment="Top" Height="29" Width="50"/>
+        <Label x:Name="label1" Content="Jeu de pendu" HorizontalAlignment="Left" Margin="10,365,0,0" VerticalAlignment="Top" Height="56" Width="152" FontSize="24"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="682,311,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>
